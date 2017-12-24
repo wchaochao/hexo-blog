@@ -78,5 +78,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:wchaochao/wchaochao.github.io.git
-  branch: master
+  repo: git@github.com:wchaochao/hexo-blog.git
+  branch: gh-pages
