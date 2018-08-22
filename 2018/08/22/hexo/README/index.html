@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="hexo," />
 
 
 
@@ -79,16 +79,18 @@
 
 
 
-<meta name="description" content="人生是一场修行">
-<meta property="og:type" content="website">
-<meta property="og:title" content="wchaochao">
-<meta property="og:url" content="http://www.wchaochao.com/index.html">
+<meta name="description" content="基于Nodejs的博客框架 目录推荐资料 Hexo文档">
+<meta name="keywords" content="hexo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://www.wchaochao.com/2018/08/22/hexo/README/index.html">
 <meta property="og:site_name" content="wchaochao">
-<meta property="og:description" content="人生是一场修行">
+<meta property="og:description" content="基于Nodejs的博客框架 目录推荐资料 Hexo文档">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-08-22T14:48:53.667Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="wchaochao">
-<meta name="twitter:description" content="人生是一场修行">
+<meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="基于Nodejs的博客框架 目录推荐资料 Hexo文档">
 
 
 
@@ -118,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://www.wchaochao.com/"/>
+  <link rel="canonical" href="http://www.wchaochao.com/2018/08/22/hexo/README/"/>
 
 
 
 
 
-  <title>wchaochao</title>
+  <title>Hexo | wchaochao</title>
   
 
 
@@ -143,8 +145,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -247,9 +248,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -279,9 +280,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/08/22/hexo/README/" itemprop="url">Hexo</a></h1>
+          <h1 class="post-title" itemprop="name headline">Hexo</h1>
         
 
         <div class="post-meta">
@@ -375,15 +374,11 @@
       
 
       
-        
-          
-            <p>基于<code>Nodejs</code>的博客框架</p>
+        <p>基于<code>Nodejs</code>的博客框架</p>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><h2 id="推荐资料"><a href="#推荐资料" class="headerlink" title="推荐资料"></a>推荐资料</h2><ul>
 <li><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo文档</a></li>
 </ul>
 
-          
-        
       
     </div>
     
@@ -398,14 +393,20 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/hexo/" rel="tag"># hexo</a>
+          
+        </div>
+      
+
+      
+      
+      
 
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -415,10 +416,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -426,6 +428,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -446,8 +452,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -511,6 +526,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#目录"><span class="nav-number">1.</span> <span class="nav-text">目录</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#推荐资料"><span class="nav-number">2.</span> <span class="nav-text">推荐资料</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -644,6 +675,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
 
   
 
