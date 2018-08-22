@@ -80,3 +80,9 @@ deploy:
   type: git
   repo: git@github.com:wchaochao/hexo-blog.git
   branch: gh-pages
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
