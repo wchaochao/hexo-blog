@@ -4,15 +4,15 @@
 
 # Site
 title: wchaochao
-subtitle: web前端笔记
-description: 人生就是场大修行
+subtitle: web前端学习笔记
+description: 人生是一场修行
 author: wchaochao
 language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://www.wchaochao.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
