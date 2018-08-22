@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Hexo]]></title>
+    <url>%2F2018%2F08%2F22%2Fhexo%2FREADME%2F</url>
+    <content type="text"><![CDATA[基于Nodejs的博客框架 目录推荐资料 Hexo文档]]></content>
+      <categories>
+        <category>工具</category>
+        <category>博客</category>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+</search>
