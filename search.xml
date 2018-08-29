@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Hexo之一概述]]></title>
+    <url>%2F2018%2F08%2F29%2Fhexo%2Foverview%2F</url>
+    <content type="text"><![CDATA[基于NodeJS环境的博客框架 使用Markdown或其他渲染引擎解析文章 利用主题生成静态网页 安装 安装Nodejs：基于NodeJS环境 安装Hexo：npm安装 1$ npm install -g hexo-cli 初始化123456// 初始化Hexo博客$ hexo init &lt;folder&gt;// 安装依赖$ cd &lt;folder&gt;$ npm install 初始化完成后，文件夹目录如下 12345678910├── .deploy # 需要部署的文件├── node_modules # Hexo插件├── public # 生成的静态网页文件├── scaffolds # 模板├── source # 博客正文和其他源文件，404、favicon、CNAME 都应该放在这里| ├── _drafts # 草稿| └── _posts # 文章├── themes # 主题├── _config.yml # 全局配置文件└── package.json # npm 依赖等]]></content>
+      <categories>
+        <category>工具</category>
+        <category>博客</category>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hexo]]></title>
     <url>%2F2018%2F08%2F22%2Fhexo%2FREADME%2F</url>
-    <content type="text"><![CDATA[基于Nodejs的博客框架 目录推荐资料 Hexo文档]]></content>
+    <content type="text"><![CDATA[基于Nodejs的博客框架 目录 Hexo之一概述 脑图 推荐资料 Hexo文档]]></content>
       <categories>
         <category>工具</category>
         <category>博客</category>
